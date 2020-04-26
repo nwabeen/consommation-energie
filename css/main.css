@@ -1,0 +1,271 @@
+.line {
+  fill: none;
+  stroke: #D52B1E;
+  stroke-width: 2px;
+}
+
+.bg-red {
+  background-color: #D52B1E !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #D52B1E !important;
+  border-color: #D52B1E !important;
+}
+
+a {
+  font-weight: bold;
+}
+
+h1 {
+  padding-bottom: 0.7em;
+}
+
+#content {
+  min-height: calc(100vh - 17em);
+  padding-top: 9em;
+}
+
+footer {
+  width: 100%;
+  margin-top: 6em;
+  padding: 4em;
+  font-size: 80%;
+}
+
+.axisWhite line {
+  stroke: black;
+}
+
+.axisWhite path {
+  stroke: black;
+}
+
+.axisWhite text {
+  fill: black;
+}
+
+ul li input[type=text] {
+  display: none;
+}
+
+ul li.editMode input[type=text] {
+  display: block;
+}
+
+ul li.editMode label {
+  display: none;
+}
+
+.navbar .dropdown-menu .form-control {
+  width: 200px;
+}
+
+select {
+  padding: 5px 8px;
+}
+
+#graph {
+  float: left;
+}
+
+table {
+  display: inline;
+}
+
+.white {
+  color: white;
+}
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card {
+  margin-bottom: 2em;
+}
+
+/* add arrow's shadow on top of dropdown menu */
+.dropdown-menu:before {
+  position: absolute;
+  top: -9px;
+  left: 43px;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #ccc;
+  border-left: 9px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+/* add arrow to top of dropdown menu */
+.dropdown-menu:after {
+  position: absolute;
+  top: -9px;
+  left: 43px;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #ffffff;
+  border-left: 9px solid transparent;
+  content: '';
+}
+
+/**********************/
+/*      ANIMATION     */
+/**********************/
+/* Add an animation to dropdown menus */
+.show>.dropdown-menu {
+  animation-name: fadeInDown;
+  animation-duration: .6s;
+  -webkit-animation-name: fadeInDown;
+  -webkit-animation-duration: .6s;
+  -moz-animation-name: fadeInDown;
+  -moz-animation-duration: .6s;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -3%, 0);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -3%, 0);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadein {
+  -webkit-animation: fadein 1.2s;
+  -moz-animation: fadein 1.2s;
+  -ms-animation: fadein 1.2s;
+  -o-animation: fadein 1.2s;
+  animation: fadein 1.2s;
+}
+
+.fadeout {
+  -webkit-animation: fadeout 0.9s;
+  -moz-animation: fadeout 0.9s;
+  -ms-animation: fadeout 0.9s;
+  -o-animation: fadeout 0.9s;
+  animation: fadeout 0.9s;
+}
+
+/* Fade out */
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+/* Fade in */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
